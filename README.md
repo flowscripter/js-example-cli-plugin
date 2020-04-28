@@ -8,14 +8,6 @@
 
 ## Overview
 
-`ExtensionPointA.js` defines an example extension point ID `EXTENSION_POINT_A_ID`.
-`ExtensionPointB.js` defines an example extension point ID `EXTENSION_POINT_B_ID`.
-In a real world scenario these would likely be imported from a host application API module.
-
-`PluginB.js` provides two extensions: one implementing the Extension Point `EXTENSION_POINT_A_ID` and the
-other implementing the Extension Point `EXTENSION_POINT_B_ID`. It also provides the required implementation
-of `Plugin` so that the host application can discover it.
-
 Refer to the example [js-example-cli](https://github.com/flowscripter/js-example-cli) project for an example CLI application
 which can load and use this plugin.
 
