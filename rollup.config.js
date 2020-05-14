@@ -17,9 +17,25 @@ module.exports = [
             include: 'src/**',
         },
         external: [
-            'os',
+            'path',
+            'fs',
+            'crypto',
+            'util',
             'tty',
-            'util'
+            'os',
+            'readline',
+            'stream',
+            'assert',
+            'http',
+            'https',
+            'zlib',
+            'url',
+            'string_decoder',
+            'events',
+            'buffer',
+            'constants',
+            'readable-stream',
+            '@flowscripter/cli-framework'
         ],
         plugins: [
             eslint({
