@@ -58,6 +58,6 @@
         "temp-dir": "2.0.0"
     },
     "dependencies": {
-        "@flowscripter/cli-framework": "5.4.11"
+        "@flowscripter/cli-framework": "5.4.13"
     }
 }
